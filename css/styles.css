@@ -137,21 +137,60 @@ table {
 
 /* 
 =============
+Global styles
+=============
+*/
+body,
+input,
+button {
+  font-family: arial, sans-serif;
+}
+input {
+  outline: none;
+}
+
+/* 
+=============
 Google logo & Search Bar
 =============
 */
 .google-logo {
   display: block;
-  margin: 20% auto;
+  margin: 10rem auto;
   margin-bottom: 5%;
 }
-.search-bar-form {
+.search-bar-container {
+  width: 80%;
   margin: 1.5rem auto;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  /* background-color: red; */
+}
+.search-icon-container {
+  position: relative;
+}
+.search-icon {
+  position: absolute;
+  color: #85878a;
+  top: 0.85em;
+  left: 1em;
 }
 .search-bar {
   display: block;
-  width: 80%;
-  margin: 0 auto;
-  padding: 0.55rem;
-  border-style: solid;
+  width: 85%;
+  font-size: 1rem;
+  margin: 0.75rem auto;
+  border-style: none;
+}
+.voice-search-icon-container {
+  position: relative;
+}
+.voice-search-icon {
+  position: absolute;
+  color: #85878a;
+  top: 0.85em;
+  right: 1em;
+}
+.search-bar-container:hover {
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
 }

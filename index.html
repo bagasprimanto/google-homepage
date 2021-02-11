@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aga's dummy Google Homepage project</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-5.15.2-web/css/all.min.css"
+    />
+    <!-- custom css -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -17,9 +23,22 @@
         class="google-logo"
       />
     </div>
-    <form action="" class="search-bar-form">
-      <input type="text" class="search-bar" />
-    </form>
+    <div class="search-bar-container">
+      <div class="search-icon-container">
+        <span class="search-icon">
+          <i class="fas fa-search"></i>
+        </span>
+      </div>
+      <div class="voice-search-icon-container">
+        <span class="voice-search-icon">
+          <i class="fas fa-microphone"></i>
+        </span>
+      </div>
+      <form action="" class="search-bar-form">
+        <input type="text" class="search-bar" />
+      </form>
+    </div>
+    <button type="submit" class="submit-btn btn">submit here</button>
     <!-- end of google logo and search bar -->
     <!-- footer -->
   </body>
