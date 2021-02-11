@@ -148,7 +148,11 @@ button {
 input {
   outline: none;
 }
-
+/* 
+=============
+Header
+=============
+*/
 /* 
 =============
 Google logo & Search Bar
@@ -160,7 +164,6 @@ Google logo & Search Bar
   margin-bottom: 2em;
 }
 .search-bar-container {
-  /* background-color: red; */
   text-align: center;
   position: relative;
 }
@@ -168,7 +171,11 @@ Google logo & Search Bar
   border-radius: 24px;
   margin: 0 2rem;
   border: solid rgba(201, 201, 201, 0.5) 0.5px;
-  padding: 0.5rem;
+  padding: 0.5em;
+}
+.search-bar:hover {
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  border-color: rgba(223, 225, 229, 0);
 }
 .search-bar-field {
   font-size: 1rem;
@@ -196,4 +203,14 @@ Google logo & Search Bar
   border-radius: 4px;
   color: rgb(96, 95, 95);
   background-color: #f8f9fa;
+}
+.submit-btn:hover {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
+}
+.submit-btn:focus {
+  border: 1px solid #4d90fe;
+  outline: none;
 }
